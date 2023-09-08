@@ -1,0 +1,284 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); */
+
+/* *{ */
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(img/bg.png);
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.logo {
+  max-height: 60px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+} */
+/* nav ul li a:hover {
+  color: #fd4766;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+} */
+/* nav ul li a:hover:after {
+  width: 100%;
+} */
+
+ /* @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  font-size: 72px;
+  background: -webkit-radial-gradient(#e8f5e9, #b2dfdb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 4.2rem;
+  color: #2196f3;
+  border: 0.5px solid #ddd;
+}
+p {
+  font-size: 2rem;
+  color: #e1bee7;
+} */
+
+
+
+
+
+/* .banner {
+    padding: 90px 15px;
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .banner .banner--content {
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background: url("./assets/svg/soap.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+  }
+  .banner .banner--content .name {
+    text-transform: uppercase;
+  }
+  .banner .banner--content .designation {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+  }
+  @media screen and (min-width: 768px) {
+    .banner .banner--content .designation {
+      font-size: 70px;
+    }
+  }
+  .banner .banner--content .tagline {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 768px) {
+    .banner .banner--content .tagline {
+      font-size: 26px;
+    }
+  }
+  .promo {
+    background-color: #DEF0FF;
+  }
+  .promo .content h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #222;
+    text-shadow: 0 1px 2px #222;
+  }
+  @media screen and (min-width: 768px) {
+    .promo .content h2 {
+      font-size: 70px;
+    }
+  }
+  .promo .content h2 span.orange {
+    font-weight: 700;
+  }
+  .promo .content p {
+    font-size: 22px;
+  }
+  @media screen and (min-width: 768px) {
+    .promo .content p {
+      font-size: 36px;
+    }
+  }
+
+
+
+
+  #about .content h2 {
+    text-align: center;
+  }
+  #about .about-container {
+    display: block;
+  }
+  @media screen and (min-width: 768px) {
+    #about .about-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+  }
+  #about .about-container-left {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    background: #DEF0FF;
+    padding: 30px 15px;
+  }
+  #about .about-container-left li {
+    font-style: italic;
+    line-height: 1.9;
+  }
+  #about .about-container-right {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    background: #F2F3F8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about .about-container-right img {
+    max-width: 100%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  @media screen and (min-width: 1200px) {
+    #about .about-container-right img {
+      -ms-flex-item-align: stretch;
+          -ms-grid-row-align: stretch;
+          align-self: stretch;
+    }
+  }
+
+
+
+  #skill {
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  }
+  #skill .skill--content {
+    display: block;
+  }
+  @media screen and (min-width: 768px) {
+    #skill .skill--content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+  }
+  #skill .skill--content .left {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  #skill .skill--content .left h2 {
+    font-size: 36px;
+    color: #222;
+  }
+  #skill .skill--content .right {
+    -ms-flex-preferred-size: 65%;
+        flex-basis: 65%;
+    display: block;
+  }
+  @media screen and (min-width: 768px) {
+    #skill .skill--content .right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+  }
+  #skill .skill--content .right .item {
+    -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    text-align: center;
+    border: 1px solid #222;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    border-width: 5px 5px 5px 5px;
+    -o-border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+       border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+    border-image-slice: 9;
+    border-style: solid;
+  }
+  @media screen and (min-width: 768px) {
+    #skill .skill--content .right .item {
+      margin-bottom: 0;
+    }
+  }
+  #skill .skill--content .right .item img {
+    max-width: 100px;
+    height: auto;
+  } */
